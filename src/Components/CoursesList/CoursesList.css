@@ -1,0 +1,50 @@
+.t-header {
+    display: flex;
+}
+
+.t-header .id {
+    flex-basis: 7%;
+}
+
+.t-header .course-name {
+    flex-basis: 40%;
+}
+
+.t-header .action {
+    flex-basis: 53%;
+}
+
+.list-unstyled li {
+    display: flex;
+    padding: 7px 0;
+    color: #101b8e;
+    font-size: 20px;
+}
+
+.list-unstyled li .id {
+    flex-basis: 7%;
+}
+
+.list-unstyled li .course-name {
+    flex-basis: 40%;
+}
+
+.list-unstyled li .action {
+    flex-basis: 53%;
+}
+
+.update-coures {
+    display: flex;
+    padding: 14px 0px;
+}
+
+.update-coures input {
+    flex-basis: 70%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.update-coures button {
+    flex-basis: 30%;
+}

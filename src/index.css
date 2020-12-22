@@ -1,13 +1,103 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body,
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: url('./bg.png') no-repeat fixed center center;
+    background-size: cover;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+#root {
+    width: 70%;
+    margin: 6rem auto;
+}
+
+.courses-list,
+.courses-add {
+    width: 68%;
+    margin: 0 auto;
+}
+
+.t-header {
+    padding-bottom: 1rem;
+}
+
+
+/* framework */
+
+.text-center {
+    text-align: center;
+}
+
+.list-unstyled {
+    margin: 0;
+    padding: 0;
+}
+
+.list-unstyled li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.title {
+    color: #795548;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.edit-btn {
+    background: #FDC02E;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    margin-right: 5px;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.delete-btn {
+    background: #D93749;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    margin-left: 5px;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    #root {
+        width: 98%;
+        margin: 6rem auto;
+    }
+    .courses-add form {
+        display: block !important;
+        width: 100%;
+        overflow: hidden;
+    }
+    .courses-add form label input {
+        margin-bottom: 10px;
+    }
+    .courses-add form input[type=submit] {
+        width: 100%;
+        padding: 12px;
+    }
+    .list-unstyled li,
+    .edit-btn,
+    .delete-btn {
+        font-size: 15px !important;
+        padding: 4px 12px !important;
+    }
+    .list-unstyled li .action {
+        display: flex;
+    }
 }
