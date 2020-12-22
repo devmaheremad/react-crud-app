@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/react-crud-app/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/react-crud-app/static/js/main.98d7bc2d.chunk.js",
-    "main.js.map": "/react-crud-app/static/js/main.98d7bc2d.chunk.js.map",
-    "runtime-main.js": "/react-crud-app/static/js/runtime-main.1cb42748.js",
-    "runtime-main.js.map": "/react-crud-app/static/js/runtime-main.1cb42748.js.map",
-    "static/js/2.a61f3264.chunk.js": "/react-crud-app/static/js/2.a61f3264.chunk.js",
-    "static/js/2.a61f3264.chunk.js.map": "/react-crud-app/static/js/2.a61f3264.chunk.js.map",
-    "static/js/3.aba5d795.chunk.js": "/react-crud-app/static/js/3.aba5d795.chunk.js",
-    "static/js/3.aba5d795.chunk.js.map": "/react-crud-app/static/js/3.aba5d795.chunk.js.map",
+    "main.css": "/react-crud-app/static/css/main.c331134d.chunk.css",
+    "main.js": "/react-crud-app/static/js/main.7ee20cae.chunk.js",
+    "main.js.map": "/react-crud-app/static/js/main.7ee20cae.chunk.js.map",
+    "runtime-main.js": "/react-crud-app/static/js/runtime-main.5b0d34af.js",
+    "runtime-main.js.map": "/react-crud-app/static/js/runtime-main.5b0d34af.js.map",
+    "static/js/2.ee3a40b8.chunk.js": "/react-crud-app/static/js/2.ee3a40b8.chunk.js",
+    "static/js/2.ee3a40b8.chunk.js.map": "/react-crud-app/static/js/2.ee3a40b8.chunk.js.map",
+    "static/js/3.fcc2a385.chunk.js": "/react-crud-app/static/js/3.fcc2a385.chunk.js",
+    "static/js/3.fcc2a385.chunk.js.map": "/react-crud-app/static/js/3.fcc2a385.chunk.js.map",
     "index.html": "/react-crud-app/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/react-crud-app/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.a61f3264.chunk.js.LICENSE.txt": "/react-crud-app/static/js/2.a61f3264.chunk.js.LICENSE.txt"
+    "static/css/main.c331134d.chunk.css.map": "/react-crud-app/static/css/main.c331134d.chunk.css.map",
+    "static/js/2.ee3a40b8.chunk.js.LICENSE.txt": "/react-crud-app/static/js/2.ee3a40b8.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/react-crud-app/static/media/bg.b82ebf7d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1cb42748.js",
-    "static/js/2.a61f3264.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.98d7bc2d.chunk.js"
+    "static/js/runtime-main.5b0d34af.js",
+    "static/js/2.ee3a40b8.chunk.js",
+    "static/css/main.c331134d.chunk.css",
+    "static/js/main.7ee20cae.chunk.js"
   ]
 }
